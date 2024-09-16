@@ -1,0 +1,29 @@
+.login-form-div {
+  border: 1px solid #ddd;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.login-form-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.login-form-subtitle {
+  margin: 25px;
+  color: #ddd;
+}
+
+.login-form-subtitle a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.input-div {
+  text-align: left !important;
+}
+
+.input-div label {
+  margin-bottom: 10px;
+}

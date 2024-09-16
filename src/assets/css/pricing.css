@@ -1,0 +1,131 @@
+.pricing-title {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.pricing-subtitle {
+  margin-top: -10px;
+  color: #ddd;
+}
+
+.pricing-btn-div {
+  display: flex;
+}
+
+.pricing-btn-div button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border: 2px solid orangered;
+  padding: 15px 35px;
+  color: #ddd;
+  font-weight: bold;
+}
+
+.pricing-btn-div button:first-child {
+  border-top-left-radius: 100000px;
+  border-bottom-left-radius: 100000px;
+}
+
+.pricing-btn-div button:last-child {
+  border-top-right-radius: 100000px;
+  border-bottom-right-radius: 100000px;
+}
+
+.pricing-active-btn {
+  background-color: orangered !important;
+}
+
+.pricing-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.pricing-div {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px 20px;
+  width: 300px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-div-title {
+  text-align: left;
+  font-size: 1.9em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pricing-div-subtitle {
+  font-size: 14px;
+  text-align: left;
+  color: #ddd;
+}
+
+.pricing-div-fee {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+.sp-sp-sp {
+  font-size: 15px !important;
+  color: #ddd;
+}
+
+.pricing-div-qulity ul {
+  list-style: none;
+  margin: none;
+  padding: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.pricing-div-li {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  color: #ededed;
+  align-items: center;
+}
+
+.pricing-div-li i {
+  width: 20px;
+  height: 20px;
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+.pricing-div-btn {
+  border: 2px solid orangered;
+  background: none;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.pricing-div-btn:hover,
+.my-btn-pricing {
+  background-color: orangered;
+}

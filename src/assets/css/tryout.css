@@ -1,0 +1,79 @@
+.try-out-sec {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-location-main-div {
+  background-color: white !important;
+  padding: 30px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 90%;
+  position: relative;
+}
+
+.home-location-title-div {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.4em;
+  color: black;
+}
+
+.home-location-desc {
+  line-height: 40px;
+  font-size: 15px;
+  color: #111;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.home-location-search-div-title {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: black;
+  text-align: left;
+}
+
+.set-home-input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  margin-top: 5px;
+  font-size: 1.4em;
+  box-shadow: 0 0 5px #ddd;
+  min-width: 400px;
+}
+
+.home-location-found-time-container {
+  position: absolute;
+  background-color: white;
+  width: 88%;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.home-location-found-zone {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  text-align: left;
+  padding: 20px 15px;
+  font-size: 1em;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  transform: 0.3s;
+}
+
+.home-location-found-zone:hover {
+  background-color: #ddd;
+}
